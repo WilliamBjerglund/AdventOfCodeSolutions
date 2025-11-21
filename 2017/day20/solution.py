@@ -1,4 +1,5 @@
 import re
+from collections import defaultdict
 
 def parse_input(input_data):
     particles = []
@@ -38,10 +39,27 @@ def run_simulation(particles, steps=1000):
 
     return min(range(len(particles)), key=lambda i: particles[i].distance())
 
+def simulate_with_collisions(particles, steps=1000):
+    for _ in range(steps):
+
+        for particle in particles:
+            particle.update()
+        
+        positions = defaultdict(list)
+        for i, p in enumerate(particles):
+            positions[tuple(p.p)].append(i)
+        particles = [p for i, p in enumerate(particles) if len(positions[tuple(p.p)]) == 1]
+    
+    return len(particles)
+
 if __name__ == "__main__":
     with open("2017/day20/input.txt", "r") as file:
         input_data = file.read()
-    
-    particles = parse_input(input_data)
-    closest_index = run_simulation(particles, 1000)
-    print("Index of the particle closest to the origin:", closest_index)
+    #part 1
+    particles1 = parse_input(input_data)
+    closest_index = run_simulation(particles1, 1000)
+    print("Part 1 - Closest particle:", closest_index)
+    #part 2
+    particles2 = parse_input(input_data)
+    remaining = simulate_with_collisions(particles2, 1000)
+    print("Part 2 - Particles Remaining:", remaining)
