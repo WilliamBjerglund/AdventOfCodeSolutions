@@ -13,9 +13,6 @@ def parse_input(input_data):
             particles.append(Particle(p, v, a))
     return particles
 
-def manhatten_distance(pos):
-    return abs(pos[0]) + abs(pos[1]) + abs(pos[2])
-
 class Particle:
     def __init__(self, p, v, a):
         self.p = list(p)
@@ -28,7 +25,7 @@ class Particle:
             self.p[i] += self.v[i]
     
     def distance(self):
-        return manhatten_distance(self.p)
+        return abs(self.p[0]) + abs(self.p[1]) + abs(self.p[2])
     
     def __str__(self):
         return f"Particle(p={self.p}, v={self.v}, a={self.a})"
