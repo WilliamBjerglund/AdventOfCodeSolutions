@@ -1,19 +1,5 @@
 """
 Day 1: Compute the password based on dial rotations
-
-
-
-part 1: Count how many times the dial lands on 0
-
-- the dial shows only numbers 0-99 on a circular pattern ( it wrpas around from 99 to 0 and vice versa)
-- the dial starts at position 50
-
-- We need to read the input and check for rotation with L meaning (toward lower numbers) and R meaning (toward higher numbers)
-- we need to keep track of rotations which will be the "number" after the L or R character
-- as there is 100 numbers on the dial we can use modulo 100 to wrap around the dial
-
-Answer: count how many times the dial lands on 0 after each rotation
-
 """
 
 

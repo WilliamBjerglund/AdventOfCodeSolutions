@@ -1,20 +1,5 @@
 """
 Day 6: Trash Compactor:
-In this challenge we are told we have a huge "grid" of math problems that the cephalopods need help solving.
-Their math is much like ours, but they write their numbers vertically so example:
-
-123 328  51 64
- 45 64  387 23
-  6 98  215 314
-*   +   *   +
-
-Would be interpreted as:
-    123 * 45 * 6 = 33210
-    328 + 64 + 98 = 490
-    51 * 387 * 215 = 4243455
-    64 + 23 + 314 = 401
-
-Once we solve each column we then need to sum all the results together to get the final answer.
 """
 
 # fmt: off
