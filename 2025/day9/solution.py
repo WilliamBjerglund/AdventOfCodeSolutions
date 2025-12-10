@@ -35,7 +35,7 @@ def find_maximum_rectangle_area(red_tiles):
 
 
 """
-Multiple Color ray casting bs welcome to hell part 2
+Multiple Color ray casting/scanlines bs welcome to hell part 2
 """
 
 def find_maximum_rectangle_area_part2(red_tiles):
