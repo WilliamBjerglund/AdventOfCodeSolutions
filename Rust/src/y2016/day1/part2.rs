@@ -1,7 +1,7 @@
 //! --- Day 1: No Time for a Taxicab ---
 //! Part 2
 
-use crate::part1::{Direction, Position};
+use super::part1::{Direction, Position};
 use std::collections::HashSet;
 
 pub fn main(input: &str) -> i32 {
