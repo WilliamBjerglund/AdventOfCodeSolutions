@@ -1,7 +1,7 @@
-mod y2016;
+mod aoc;
 
 fn main() {
-    y2016::run();
+    aoc::run();
 }
 
 /*

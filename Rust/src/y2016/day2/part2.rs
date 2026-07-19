@@ -1,5 +1,5 @@
-//! --- Day 2: Bathroom Security ---
-//! Part 2: The Bathroom Code
+// ! --- Day 2: Bathroom Security ---
+// ! Part 2: The Bathroom Code
 
 /*
 The problem is almost the same here we can change out the rgrid for a new one with empty squares.

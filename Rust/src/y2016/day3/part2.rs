@@ -1,4 +1,4 @@
-//!--- Day 3: Squares With Three Sides ---
+// !--- Day 3: Squares With Three Sides ---
 /*
 The idea here is in my mind simple.
 in Part 1, each row was one triangle

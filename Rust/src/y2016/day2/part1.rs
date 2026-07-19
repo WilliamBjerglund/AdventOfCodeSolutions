@@ -1,4 +1,4 @@
-//! --- Day 2: Bathroom Security ---
+// ! --- Day 2: Bathroom Security ---
 
 /*
 The instructions given in input.txt is a set of values D means Down U means Up L mean Left and R means Right.

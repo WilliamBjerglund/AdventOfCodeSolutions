@@ -1,4 +1,4 @@
-//!--- Day 3: Squares With Three Sides ---
+// !--- Day 3: Squares With Three Sides ---
 /*
 Very simple day we get a file like this
 123 123 123

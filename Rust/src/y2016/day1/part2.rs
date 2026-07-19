@@ -1,5 +1,5 @@
-//! --- Day 1: No Time for a Taxicab ---
-//! Part 2
+// ! --- Day 1: No Time for a Taxicab ---
+// ! Part 2
 
 use super::part1::{Direction, Position};
 use std::collections::HashSet;
