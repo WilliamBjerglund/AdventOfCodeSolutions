@@ -48,14 +48,14 @@ macro_rules! advent_of_code {
                             let part2_answer = part2::main(INPUT);
 
                             println!(
-                                "Year {}, Day {}, Part 1: {}",
+                                "Year {}, Day {}, Part 1:\n {}",
                                 $year_number,
                                 $day_number,
                                 part1_answer
                             );
 
                             println!(
-                                "Year {}, Day {}, Part 2: {}",
+                                "Year {}, Day {}, Part 2:\n {}",
                                 $year_number,
                                 $day_number,
                                 part2_answer
@@ -93,7 +93,9 @@ advent_of_code!(
         day3 => 3 [false],
         day4 => 4 [false],
         day5 => 5 [false],
-        day6 => 6 [true],
-        day7 => 7 [true],
+        day6 => 6 [false],
+        day7 => 7 [false],
+        day8 => 8 [false],
+        day9 => 9 [true],
     },
 );
