@@ -72,7 +72,7 @@ pub fn main(input: &str) -> i32 {
 }
 
 #[test]
-fn examples() {
+fn test() {
     assert_eq!(main("R2, L3"), 5);
     assert_eq!(main("R2, R2, R2"), 2);
     assert_eq!(main("R5, L5, R5, R3"), 12);

@@ -97,6 +97,8 @@ advent_of_code!(
         day7 => 7 [false],
         day8 => 8 [false],
         day9 => 9 [false],
-        day10 => 10 [true],
+        day10 => 10 [false],
+        day11 => 11 [false],
+        day12 => 12 [true],
     },
 );

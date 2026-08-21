@@ -57,7 +57,7 @@ pub fn main(input: &str) -> u32 {
 }
 
 #[test]
-fn decrypt_example() {
+fn test() {
     assert_eq!(
         decrypt_name("qzmt-zixmtkozy-ivhz", 343),
         "very encrypted name"
