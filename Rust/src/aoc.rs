@@ -3,7 +3,7 @@ macro_rules! advent_of_code {
         $(
             $year:ident => $year_number:literal {
                 $(
-                    $day:ident => $day_number:literal [$run:literal] // <-- Added [$run:literal]
+                    $day:ident => $day_number:literal [$run:literal] 
                 ),* $(,)?
             }
         ),* $(,)?
@@ -85,7 +85,7 @@ macro_rules! advent_of_code {
     };
 }
 
-// Now you can easily turn individual days true or false!
+// Turns days on or off
 advent_of_code!(
     y2016 => 2016 {
         day1 => 1 [false],
